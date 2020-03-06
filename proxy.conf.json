@@ -1,6 +1,6 @@
 {
     "/people": {
-        "target": "http://localhost:3000",
+        "target": "https://food-and-drinks.herokuapp.com:3000",
         "secure": false
     }
 }
