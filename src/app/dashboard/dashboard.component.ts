@@ -26,7 +26,6 @@ export class DashboardComponent implements OnInit {
     this.dashboardService.onRestaurantData().subscribe(data => {
       if (data != null) {
         this.dashboardModal.restaurantDetails = data;
-        console.log(this.dashboardModal.restaurantDetails);
         this.countryList = _.uniqBy(data.map(x => x.Country));
       } else {
         this.dashboardService.getRestaurantDetails(this.dashboardModal);
