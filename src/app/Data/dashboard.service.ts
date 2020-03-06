@@ -12,7 +12,7 @@ export class DashboardService {
     private restaurantDetails$: BehaviorSubject<Restaurant[]> = new BehaviorSubject<Restaurant[]>(null);
 
     async getRestaurantDetails(dashboardModal: DashboardModal) {
-        const url = 'http://localhost:3000/response';
+        const url = 'https://food-and-drinks.herokuapp.com:3000/response';
         let data = await this.http.get<Restaurant[]>(url).toPromise();
         data =  data.map(x => new Restaurant(x));
         this.setRestaurantDetails(data);
