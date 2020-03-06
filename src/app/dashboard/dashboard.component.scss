@@ -1,0 +1,71 @@
+.navbar {
+  margin-bottom: 2px;
+  a {
+    font-size: 4.5rem;
+    color: white;
+  }
+}
+.carousel-inner {
+  .item {
+    img {
+      height: 450px;
+    }
+  }
+}
+
+.container {
+  h1 {
+    color: crimson;
+  }
+  h4 {
+    color: blueviolet;
+  }
+  form {
+    margin-top: -4%;
+  }
+  .row {
+    .col-md-8 {
+      border: 1px solid #e5e5e5;
+      margin-top: 4%;
+      margin-left: 13.5%;
+      padding: 0.5%;
+      text-align: center;
+      background-color: bisque;
+      label {
+        margin: 1%;
+      }
+    }
+  }
+  .row {
+    .col-md-3 {
+      display: contents;
+      .card {
+        margin: 4%;
+        .card-img-top {
+          height: 60%;
+        }
+        .card-body {
+          .card-title {
+            .title {
+              font-weight: bold;
+              color: crimson;
+              font-family: cursive;
+              font-size: 1.5rem;
+            }
+            .rating {
+              float: right;
+              border: 1px solid #e5e5e5;
+              background: lightgreen;
+            }
+          }
+          label {
+            font-weight: 600;
+          }
+          .card-text {
+            font-size: 1.18rem;
+          }
+        }
+      }
+    }
+  }
+}
